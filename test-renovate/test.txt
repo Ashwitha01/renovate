@@ -1,0 +1,2 @@
+just a test file.
+basically renovate should ignore this file
