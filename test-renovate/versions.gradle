@@ -1,1 +1,9 @@
-abvc
+##some sample
+dependencies {
+    def cargoVersion = '1.7.9'
+    postgres(group: 'org.postgresql', name: 'postgresql', version: 'default')
+    postgres(group: 'org.postgresql', name: 'postgresql', version: '42.5.0')
+    oracle(group: 'oracle', name: 'ojdbc7', version: '12.1.0.1')
+    dbcp(group: 'org.apache.tomcat', name: 'tomcat-dbcp', version: tomcatVersion)
+    reload "org.hotswapagent:hotswap-agent:1.4.1
+}    
