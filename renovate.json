@@ -12,7 +12,7 @@
       "react-dom"
     ],
     "includePaths": [
-      "**/renovate-sub-folders/**"
+      "**/test-renovate/versions.gradle**"
     ],
     "schedule": [
       "at any time"
