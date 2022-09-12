@@ -3,33 +3,10 @@
     "baseBranches": [
       "master"
     ],
-    "bbUseDefaultReviewers": true,
-    "prConcurrentLimit": 10,
-    "ignoreDeps": [
-      "gradle",
-      "gradle-wrapper",
-      "react",
-      "react-dom"
-    ],
     "includePaths": [
       "**/test-renovate/versions.gradle**"
     ],
     "schedule": [
       "at any time"
     ],
-    "packageRules": [
-      {
-        "matchDatasources": [
-          "maven",
-          "npm",
-          "docker",
-          "terraform-module",
-          "terraform-provider"
-        ],
-        "groupName": "dependencies",
-        "schedule": [
-          "at any time"
-        ]
-      }
-    ]
 }
